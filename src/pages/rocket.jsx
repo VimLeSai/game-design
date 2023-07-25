@@ -36,8 +36,8 @@ const RocketPage = () => {
       <Layout>
         <>
           <SubHeader subTitle="Rocket" showRule />
-          <div className="overflow-y-auto flex items-top justify-center gap-[40px]">
-            <div className="relative my-4 w-96 h-[calc(100vh_-_142px)]">
+          <div className="overflow-y-auto flex flex-col md:flex-row items-start justify-center w-full gap-[40px]">
+            <div className="relative my-4 w-80 md:w-96 h-[calc(100vh_-_142px)]">
               {GrowthTags}
               <div className="relative p-2 my-4 text-base text-center rounded-lg text-lightslategray font-fs-elliot-pro bg-darkslategray">
                 <div className=" flex flex-row items-start justify-start gap-[5px]">
@@ -64,19 +64,19 @@ const RocketPage = () => {
                   </div>
                 </div>
                 <div className="my-3 flex flex-row items-center justify-center gap-[8px] text-3xs">
-                  <div className="rounded-8xs bg-light-blue  h-[25px] flex flex-row py-3.5 px-5 box-border items-center justify-center">
+                  <div className="rounded-8xs bg-light-blue  h-[25px] flex flex-row py-3.5 px-4 md:px-5 box-border items-center justify-center">
                     <b className="relative">+20</b>
                   </div>
-                  <div className="rounded-8xs bg-light-blue  h-[25px] flex flex-row py-3.5 px-5 box-border items-center justify-center">
+                  <div className="rounded-8xs bg-light-blue  h-[25px] flex flex-row py-3.5 px-4 md:px-5 box-border items-center justify-center">
                     <b className="relative">+50</b>
                   </div>
-                  <div className="rounded-8xs bg-light-blue  h-[25px] flex flex-row py-3.5 px-5 box-border items-center justify-center">
+                  <div className="rounded-8xs bg-light-blue  h-[25px] flex flex-row py-3.5 px-4 md:px-5 box-border items-center justify-center">
                     <b className="relative">+100</b>
                   </div>
-                  <div className="rounded-8xs bg-light-blue  h-[25px] flex flex-row py-3.5 px-5 box-border items-center justify-center">
+                  <div className="rounded-8xs bg-light-blue  h-[25px] flex flex-row py-3.5 px-4 md:px-5 box-border items-center justify-center">
                     <b className="relative">+1000</b>
                   </div>
-                  <div className="rounded-8xs bg-light-blue  h-[25px] flex flex-row py-3.5 px-5 box-border items-center justify-center">
+                  <div className="rounded-8xs bg-light-blue  h-[25px] flex flex-row py-3.5 px-4 md:px-5 box-border items-center justify-center">
                     <b className="relative">+2000</b>
                   </div>
                 </div>
@@ -97,21 +97,21 @@ const RocketPage = () => {
                   </div>
                 </div>
                 <div className="flex flex-col items-center justify-center p-4 text-center ">
-                  <div className="relative flex rounded-xl p-4 gap-3 m-2 border-[1px] border-solid border-white w-80">
+                  <div className="relative flex rounded-xl p-4 gap-3 m-2 border-[1px] border-solid border-white w-fit md:w-80">
                     <div className="flex-1 w-1/2">
-                      <div className="flex flex-row items-center justify-start m-1">
+                      <div className="flex flex-row items-center justify-start m-1 whitespace-nowrap">
                         <div className="relative">
                           <span>{`Periods: `}</span>
                           <b>2112290230</b>
                         </div>
                       </div>
-                      <div className="flex flex-row items-center justify-start m-1">
+                      <div className="flex flex-row items-center justify-start m-1 whitespace-nowrap">
                         <div className="relative">
                           <span>{`Time: `}</span>
                           <b>12/28 02:18</b>
                         </div>
                       </div>
-                      <div className="flex flex-row items-center justify-start m-1">
+                      <div className="flex flex-row items-center justify-start m-1 whitespace-nowrap">
                         <div className="relative">
                           <span>{`point: `}</span>
                           <b>400</b>
@@ -119,19 +119,19 @@ const RocketPage = () => {
                       </div>
                     </div>
                     <div className="flex-1 w-1/2">
-                      <div className="flex flex-row items-center justify-start m-1">
+                      <div className="flex flex-row items-center justify-start m-1 whitespace-nowrap">
                         <div className="relative">
                           <span>{`Amount: `}</span>
                           <b>+1290.90</b>
                         </div>
                       </div>
-                      <div className="flex flex-row items-center justify-start m-1 ">
+                      <div className="flex flex-row items-center justify-start m-1 whitespace-nowrap ">
                         <div className="relative">
                           <span>{`Stop: `}</span>
                           <b>2.22x</b>
                         </div>
                       </div>
-                      <div className="flex flex-row items-center justify-start m-1">
+                      <div className="flex flex-row items-center justify-start m-1 whitespace-nowrap">
                         <div className="relative">
                           <span>{`Result: `}</span>
                           <b>-</b>

@@ -4,7 +4,7 @@ import OutlineButton from '../../widgets/outline-button'
 
 const WalletCard = () => {
   return (
-    <div className=" flex p-4 rounded-xl w-[360px] z-[0] bg-blue-main flex-col items-start justify-start gap-[10px]">
+    <div className="flex p-4 rounded-xl md:w-[360px] z-[0] bg-blue-main flex-col items-start justify-start gap-[10px]">
         <div className="w-full flex flex-col items-start justify-start gap-[12px] z-[1]">
           <div className="flex flex-col items-start justify-start">
             <div className="flex flex-row items-center justify-start gap-[4px]">
