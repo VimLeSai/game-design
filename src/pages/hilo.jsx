@@ -16,8 +16,8 @@ const HiloPage = () => {
       <Layout>
         <>
           <SubHeader subTitle="Hilo" showRule />
-          <div className="overflow-y-auto flex items-top justify-center gap-[40px]">
-            <div className="relative my-4 h-[calc(100vh_-_142px)]">
+          <div className="overflow-y-auto flex flex-col md:flex-row items-start justify-center w-full gap-[40px]">
+            <div className="relative my-4 md:h-[calc(100vh_-_142px)]">
               <div className="flex my-4 text-center w-80 font-fs-elliot-pro">
                 <div className="flex items-center justify-center flex-1">{CardNoFive}</div>
                 <div className="flex flex-col items-center justify-center flex-1 gap-4">
@@ -70,12 +70,12 @@ const HiloPage = () => {
               {SequncialCards()}
             </div>
             <div className="relative rounded-xl bg-darkslategray my-4 h-fit max-h-[calc(100vh_-_142px)]">
-              <div className="p-4 w-96">
-                <div className="flex items-center">
-                  <div className="flex-1 box-border  flex  p-2.5 items-center justify-center border-b-[2px] border-solid border-dark-blue">
+              <div className="p-4 w-80 md:w-96">
+                <div className="flex items-center text-lg">
+                  <div className="flex-1 box-border  flex p-1.5 md:p-2.5 items-center justify-center border-b-[2px] border-solid border-dark-blue">
                     <div className="relative whitespace-nowrap">Everyone orders</div>
                   </div>
-                  <div className="flex-1  box-border w-[172px] flex  p-2.5 items-center justify-center border-b-[2px] border-solid border-blue-main">
+                  <div className="flex-1  box-border  flex  p-2.5 items-center justify-center border-b-[2px] border-solid border-blue-main">
                     <div className="relative">My orders</div>
                   </div>
                 </div>

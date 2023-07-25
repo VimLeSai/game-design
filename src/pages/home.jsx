@@ -38,8 +38,8 @@ const Home = () => {
     <div className="relative w-screen h-screen overflow-hidden text-5xl text-left text-white cursor-pointer bg-gray font-fs-elliot-pro">
       <Layout>
         <>
-          <section className="flex justify-start gap-4">
-            <div>
+          <section className="flex flex-col justify-start gap-4 md:flex-row">
+            <div className="flex flex-col">
               <WalletCard />
               <ActionButton />
             </div>

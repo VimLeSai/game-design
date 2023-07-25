@@ -5,8 +5,8 @@ const Header = () => {
   return (
     <header className="w-screen h-[60px] bg-dark-blue ">
       <Content>
-        <div className="flex flex-row items-center justify-between h-[60px] px-12 gap-[200px]">
-          <i className="relative font-extrabold">
+        <div className="flex flex-row items-center justify-between h-[60px] px-4 md:px-12 gap-[200px]">
+          <i className="relative font-extrabold whitespace-nowrap">
             <span>WIN-</span>
             <span className="text-blue-main">YAR</span>
           </i>

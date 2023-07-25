@@ -8,7 +8,7 @@ const AndarBaharPage = () => {
     <Layout>
       <>
         <SubHeader subTitle="Andar Bahar" showRule />
-        <div className="overflow-y-auto flex items-center justify-center gap-[40px]">
+        <div className="overflow-y-auto flex flex-col md:flex-row items-start justify-center w-full gap-[40px]">
           <AndarBaharGameCards />
           <AndarBaharRecords />
         </div>

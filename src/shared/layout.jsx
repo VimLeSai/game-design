@@ -12,10 +12,10 @@ const Layout = ({ children }) => {
     >
       <Header />
       <main className="h-[calc(100vh_-_60px)] flex w-screen overflow-hidden">
-        <div className="hidden md:block w-[74px] h-[calc(100vh_-_60px)]">
+        <div className=" w-0 md:w-[74px] h-[calc(100vh_-_60px)]">
           <Menubar />
         </div>
-        <div className="w-[calc(100vw_-_74px)] max-h-[calc(100vh_-_60px)] overflow-x-hidden overflow-y-auto p-4">{children}</div>
+        <div className="w-screen md:w-[calc(100vw_-_74px)] max-h-[calc(100vh_-_60px)] overflow-x-hidden overflow-y-auto p-4 mb-20 md:mb-2  md:p-4">{children}</div>
       </main>
     </div>
   );
