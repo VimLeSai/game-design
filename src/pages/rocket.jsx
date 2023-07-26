@@ -87,7 +87,7 @@ const RocketPage = () => {
                 </div>
               </div>
 
-              <div className="relative w-full my-4 text-xs text-center text-white cursor-pointer h-fit bg-darkslategray rounded-xl font-fs-elliot-pro">
+              <div className="relative w-full my-4 text-xs text-center text-white h-fit bg-darkslategray rounded-xl font-fs-elliot-pro">
                 <div className="flex items-center text-sm text-left ">
                   <div className="flex-1 box-border flex flex-row p-2.5 items-center justify-center border-b-[2px] border-solid border-[#111422]">
                     <div className="relative">Everyone orders</div>
