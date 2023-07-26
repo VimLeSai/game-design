@@ -35,22 +35,20 @@ const popularGames = [
 const newGames = [...popularGames];
 const Home = () => {
   return (
-    <div className="relative w-screen h-screen overflow-hidden text-5xl text-left text-white cursor-pointer bg-gray font-fs-elliot-pro">
-      <Layout>
-        <>
-          <section className="flex flex-col justify-start gap-4 md:flex-row">
-            <div className="flex flex-col">
-              <WalletCard />
-              <ActionButton />
-            </div>
-            <ReferNowCard />
-          </section>
+    <Layout>
+      <>
+        <section className="flex flex-col justify-start gap-4 md:flex-row">
+          <div className="flex flex-col">
+            <WalletCard />
+            <ActionButton />
+          </div>
+          <ReferNowCard />
+        </section>
 
-          <GamesSection title="Popular" games={popularGames} />
-          <GamesSection title="New" games={newGames} />
-        </>
-      </Layout>
-    </div>
+        <GamesSection title="Popular" games={popularGames} />
+        <GamesSection title="New" games={newGames} />
+      </>
+    </Layout>
   );
 };
 
