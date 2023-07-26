@@ -7,25 +7,25 @@ const RocketPage = () => {
   const [showModal, setShowModal] = useState(false);
   const GrowthTags = (
     <div className="flex flex-row items-center justify-between mt-2 mb-4 text-xs ">
-      <div className="rounded-8xs bg-mediumseagreen w-[45px] h-[25px] flex flex-row py-3.5 px-2.5 box-border items-center justify-center">
+      <div className="rounded-8xs bg-mediumseagreen md:w-[45px] h-[25px] flex flex-row py-3.5 px-1.5 md:px-2.5 box-border items-center justify-center">
         <div className="relative">1.37x</div>
       </div>
-      <div className="rounded-8xs bg-dodgerblue-200 w-[45px] h-[25px] flex flex-row py-3.5 px-2.5 box-border items-center justify-center">
+      <div className="rounded-8xs bg-dodgerblue-200 md:w-[45px] h-[25px] flex flex-row py-3.5 px-1.5 md:px-2.5 box-border items-center justify-center">
         <div className="relative">1.37x</div>
       </div>
-      <div className="rounded-8xs bg-tomato w-[45px] h-[25px] flex flex-row py-3.5 px-2.5 box-border items-center justify-center">
+      <div className="rounded-8xs bg-tomato md:w-[45px] h-[25px] flex flex-row py-3.5 px-1.5 md:px-2.5 box-border items-center justify-center">
         <div className="relative">1.37x</div>
       </div>
-      <div className="rounded-8xs bg-dodgerblue-200 w-[45px] h-[25px] flex flex-row py-3.5 px-2.5 box-border items-center justify-center">
+      <div className="rounded-8xs bg-dodgerblue-200 md:w-[45px] h-[25px] flex flex-row py-3.5 px-1.5 md:px-2.5 box-border items-center justify-center">
         <div className="relative">1.37x</div>
       </div>
-      <div className="rounded-8xs bg-tomato w-[45px] h-[25px] flex flex-row py-3.5 px-2.5 box-border items-center justify-center">
+      <div className="rounded-8xs bg-tomato md:w-[45px] h-[25px] flex flex-row py-3.5 px-1.5 md:px-2.5 box-border items-center justify-center">
         <div className="relative">1.37x</div>
       </div>
-      <div className="rounded-8xs bg-dodgerblue-200 w-[45px] h-[25px] flex flex-row py-3.5 px-2.5 box-border items-center justify-center">
+      <div className="rounded-8xs bg-dodgerblue-200 md:w-[45px] h-[25px] flex flex-row py-3.5 px-1.5 md:px-2.5 box-border items-center justify-center">
         <div className="relative">1.37x</div>
       </div>
-      <div className="rounded-8xs bg-gray w-[45px] h-[25px] flex flex-row py-3.5 px-2.5 box-border items-center justify-center">
+      <div className="rounded-8xs bg-gray md:w-[45px] h-[25px] flex flex-row py-3.5 px-1.5 md:px-2.5 box-border items-center justify-center">
         <img className="relative w-[21px] h-[21px] overflow-hidden shrink-0" alt="" src="/mdiclockarrow.svg" />
       </div>
     </div>
@@ -37,7 +37,7 @@ const RocketPage = () => {
         <>
           <SubHeader subTitle="Rocket" showRule />
           <div className="overflow-y-auto flex flex-col md:flex-row items-start justify-center w-full gap-[40px]">
-            <div className="relative my-4 w-80 md:w-96 h-[calc(100vh_-_142px)]">
+            <div className="relative mx-auto my-4 w-80 md:w-96 h-[calc(100vh_-_142px)]">
               {GrowthTags}
               <div className="relative p-2 my-4 text-base text-center rounded-lg text-lightslategray font-fs-elliot-pro bg-darkslategray">
                 <div className=" flex flex-row items-start justify-start gap-[5px]">

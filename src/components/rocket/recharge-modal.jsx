@@ -6,8 +6,8 @@ const RechargeModal = ({ showModal, setShowModal }) => {
       {showModal ? (
         <>
           <div className="fixed inset-0 z-50 flex items-center justify-center overflow-x-hidden overflow-y-auto outline-none focus:outline-none">
-            <div className="relative w-auto max-w-3xl mx-auto my-6">
-              <div className="relative flex flex-col w-full p-3 border-0 rounded-lg shadow-lg outline-none rounded-t-xl bg-darkslategray focus:outline-none">
+            <div className="relative w-auto md:max-w-3xl md:mx-auto md:my-6">
+              <div className="relative p-3 border-0 rounded-lg shadow-lg outline-none md:w-full rounded-t-xl bg-darkslategray focus:outline-none">
                 <div className="flex items-start justify-between p-3 border-b border-gray-300 border-solid rounded-t ">
                   <h3 className="text-3xl m-0 font=semibold text-white text-center">
                     <b className="">Join Bahar</b>

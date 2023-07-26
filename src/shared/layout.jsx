@@ -5,7 +5,7 @@ import Menubar from "./menu-bar";
 const Layout = ({ children }) => {
   return (
     <div
-      className="relative w-screen h-screen overflow-hidden text-5xl text-left text-white cursor-pointer -z-[1] bg-backgound font-fs-elliot-pro"
+      className="relative w-screen h-screen overflow-hidden text-5xl text-left text-white bg-backgound font-fs-elliot-pro"
       style={{
         backgroundImage: "url('/group-501.svg')",
       }}
