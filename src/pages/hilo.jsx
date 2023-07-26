@@ -69,7 +69,7 @@ const HiloPage = () => {
               </div>
               {SequncialCards()}
             </div>
-            <div className="relative rounded-xl bg-darkslategray my-4 h-fit max-h-[calc(100vh_-_142px)]">
+            <div className="relative rounded-xl bg-darkslategray mx-auto my-4 h-fit max-h-[calc(100vh_-_142px)]">
               <div className="p-4 w-80 md:w-96">
                 <div className="flex items-center text-lg">
                   <div className="flex-1 box-border  flex p-1.5 md:p-2.5 items-center justify-center border-b-[2px] border-solid border-dark-blue">
