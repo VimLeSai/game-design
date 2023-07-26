@@ -9,7 +9,7 @@ const SubHeader = ({ subTitle, showRule, backLink = "/" }) => {
           <img className="relative w-2.5 h-[17.47px]" alt="" src="/vector5.svg" />
         </div>
       </Link>
-      <b className="relative">{subTitle}</b>
+      <b className="relative text-base whitespace-nowrap">{subTitle}</b>
       <div className="h-[45px] flex flex-row p-2 box-border items-center justify-center text-xs">
         {showRule && <div className="relative">Rule</div>}
       </div>

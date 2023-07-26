@@ -17,7 +17,7 @@ const HiloPage = () => {
         <>
           <SubHeader subTitle="Hilo" showRule />
           <div className="overflow-y-auto flex flex-col md:flex-row items-start justify-center w-full gap-[40px]">
-            <div className="relative my-4 md:h-[calc(100vh_-_142px)]">
+            <div className="relative my-4 mx-auto md:h-[calc(100vh_-_142px)]">
               <div className="flex my-4 text-center w-80 font-fs-elliot-pro">
                 <div className="flex items-center justify-center flex-1">{CardNoFive}</div>
                 <div className="flex flex-col items-center justify-center flex-1 gap-4">
