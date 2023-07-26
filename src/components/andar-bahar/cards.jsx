@@ -2,7 +2,7 @@ import React from "react";
 
 const AndarBaharGameCards = () => {
   return (
-    <div className="relative my-4 md:h-[calc(100vh_-_142px)]">
+    <div className="relative my-4 mx-auto md:h-[calc(100vh_-_142px)]">
       <b className="block w-full h-12 mx-4 my-4 text-center text-9xl">01 : 90</b>
 
       <div className="flex items-center justify-between mb-10 w-80 md:w-96">
